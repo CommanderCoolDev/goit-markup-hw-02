@@ -97,6 +97,7 @@ letter-spacing: 0.03em;
 background: #F5F4FA;
 border-radius: 4px;
 color: #212121;
+cursor: pointer;
 }
 .btn-list:hover,
 .btn-list:focus {
