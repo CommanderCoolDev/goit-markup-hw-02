@@ -11,6 +11,7 @@
   --light-color: #fff;
   --dark-color: #000;
   --main-bg: #f5f4fa;
+  --adress-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -29,6 +30,7 @@ body {
 .adress {
   font-style: normal;
 }
+
 .light-theme {
   color: var(--light-color);
 }
@@ -56,7 +58,8 @@ body {
   color: var(--accent-color);
 }
 .nav-link:hover,
-.nav-link:focus .nav-link:active {
+.nav-link:focus,
+.nav-link:active {
   color: var(--accent-color);
 }
 .phone-mail {
@@ -173,10 +176,17 @@ body {
   font-style: normal;
   font-weight: var(--text-normal);
   line-height: 1.71;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--adress-color);
+}
+.bottom-adress:hover,
+.bottom-adress:focus,
+.adress-map:hover,
+.adress-map:focus {
+  color: var(--accent-color);
 }
 .adress-map {
   color: var(--light-color);
 }
+
 /*-------END OF FOOTER-----------*/
 /*---------END OF MAIN-------*/
