@@ -10,6 +10,7 @@
   --title-color: #212121;
   --light-color: #fff;
   --dark-color: #000;
+  --main-bg: #f5f4fa;
 }
 
 body {
@@ -93,7 +94,7 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  background: #f5f4fa;
+  background: var(--main-bg);
   border-radius: 4px;
   color: var(--title-color);
   cursor: pointer;
@@ -139,7 +140,8 @@ body {
 }
 /*-----END OF OUR JOB------*/
 /*-----------TEAM--------*/
-.team-title {
+.team-title,
+.team-subtitle {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -147,9 +149,6 @@ body {
 }
 .team-subtitle {
   font-weight: var(--text-normal);
-  font-size: 16px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--font-color);
 }
 /*-----END OF TEAM---------*/
@@ -173,18 +172,17 @@ body {
 .bottom {
   background-color: var(--second-color);
 }
+
+.bottom-adress,
 .adress-map {
-  font-weight: var(--text-normal);
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--light-color);
-}
-.bottom-adress {
   font-style: normal;
   font-weight: var(--text-normal);
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.adress-map {
+  color: var(--light-color);
 }
 /*-------END OF FOOTER-----------*/
 /*---------END OF MAIN-------*/
