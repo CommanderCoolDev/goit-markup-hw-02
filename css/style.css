@@ -17,6 +17,7 @@ body {
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
+  letter-spacing: 0.03em;
 }
 .link {
   text-decoration: none;
@@ -41,7 +42,6 @@ body {
   font-weight: var(--text-bold);
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 .half-logo {
   color: var(--accent-color);
@@ -93,7 +93,6 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
   background: var(--main-bg);
   border-radius: 4px;
   color: var(--title-color);
@@ -119,13 +118,11 @@ body {
   font-weight: var(--text-bold);
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .features-sub {
   font-weight: var(--text-normal);
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--font-color);
 }
 /*-------END OF FEATURES-------*/
@@ -135,7 +132,6 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-color);
 }
 /*-----END OF OUR JOB------*/
@@ -144,7 +140,6 @@ body {
 .team-subtitle {
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--title-color);
 }
 .team-subtitle {
@@ -164,7 +159,7 @@ body {
   font-weight: var(--text-normal);
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
+
   color: var(--font-color);
 }
 /*--------END OF PICTURES---------*/
@@ -178,7 +173,6 @@ body {
   font-style: normal;
   font-weight: var(--text-normal);
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .adress-map {
